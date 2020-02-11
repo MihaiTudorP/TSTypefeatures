@@ -18,3 +18,14 @@ const printSummary = (item: Reportable): void => {
 };
 
 printSummary(oldCivic);
+
+const drink = {
+  color: 'brown',
+  carbonated: true,
+  sugar: 40,
+  summary(): string {
+    return `This is a ${this.color} ${this.carbonated?'carbonated':'still'} drink with ${this.sugar} grams of sugar.`;
+  }
+};
+
+printSummary(drink);
