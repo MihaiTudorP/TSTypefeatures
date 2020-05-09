@@ -1,0 +1,23 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MihaiTudorP/TSTypefeatures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MihaiTudorP/TSTypefeatures/issues"
+  },
+  "homepage": "https://github.com/MihaiTudorP/TSTypefeatures#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
